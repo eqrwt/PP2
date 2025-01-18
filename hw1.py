@@ -70,4 +70,10 @@ def wanna_work_with_function_starting_from_this():
     print(y)
     y = int(y)
     print(y)
-    
+
+def working_with_strings():
+    s = 'Lollipop lolilolilolilolipop'
+    print(s[-1] + s[0])
+    print(s[4:3], s[-1:0:-1])
+    print(f'I remembered son from {s[0:4]} good one I do not know if it is wrong we will seee')
+
