@@ -33,4 +33,7 @@ def myfunc():
 myfunc()
 print("Python is " + x)
 
+# identyfing variables type here how
+haski = set((1, 2, 2, 3))
+print(type(haski))
 
