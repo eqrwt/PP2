@@ -24,3 +24,13 @@ def myfunc():
 myfunc()
 print("Python is " + x)
 
+# here adding global keyword to show how we can change x
+x = "awesome"
+
+def myfunc():
+  global x  
+  x = "fantastic"
+myfunc()
+print("Python is " + x)
+
+
