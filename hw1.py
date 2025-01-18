@@ -16,3 +16,11 @@ if n == 2:
     print("Just the two of us")
 
 
+#here good example of using global and other things in working with variables
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+myfunc()
+print("Python is " + x)
+
